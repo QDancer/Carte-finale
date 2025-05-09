@@ -1,0 +1,167 @@
+/* === Styles généraux === */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100%;
+}
+
+.leaflet-container {
+  font: 15px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+/* === Tooltip personnalisé === */
+.leaflet-popup-content-wrapper {
+  color: rgb(0, 0, 0);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+body.is-mobile .leaflet-popup-content-wrapper {
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+/* === Légende === */
+.info.legend {
+  background: white;
+  padding: 6px;
+  line-height: 1.4;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+#legend-toggle {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 4px 8px;
+  cursor: pointer;
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+
+#legend-content {
+  margin-top: 4px;
+}
+
+/* === Icônes === */
+.danger-marker-icon, .attention-marker-icon {
+  filter: drop-shadow(0 0 2px white) drop-shadow(0 0 2px white);
+}
+
+.flag-icon {
+  vertical-align: middle;
+  margin-right: 6px;
+  width: 24px;
+  height: auto;
+}
+
+/* === Logo === */
+.company-logo {
+  width: 100px;
+  padding: 5px;
+  background: rgba(200, 200, 200, 0.5);
+  border: 3px solid grey;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* === Tooltip fullscreen === */
+#fullscreen-tooltip {
+  position: fixed;
+  display: none;
+  background: white;
+  border: 3px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+  overflow: auto;
+  padding: 20px;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+@media (min-width: 768px) {
+  #fullscreen-tooltip {
+    width: 60%;
+    height: 70%;
+    top: 15%;
+    left: 20%;
+  }
+}
+
+/* === Bouton "fermer" dans le tooltip fullscreen === */
+#close-tooltip {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2100;
+  background: #020202;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2em;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* === Adaptations pour mobile === */
+body.is-mobile .info.legend {
+  font-size: 1em;
+  margin-bottom: 16px;
+}
+
+body.is-mobile #fullscreen-tooltip {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  padding: 10px;
+  font-size: 1.2em;
+  overflow-y: auto;
+  box-sizing: border-box;
+  z-index: 2000;
+}
+
+/* === Mode sombre === */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode .leaflet-popup-content-wrapper {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #444444;
+}
+
+body.dark-mode .info.legend {
+  background: #222222;
+  color: #ffffff;
+  border: 1px solid #444444;
+}
+
+body.dark-mode #legend-toggle {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #555555;
+}
+
+body.dark-mode #fullscreen-tooltip {
+  background-color: #222222;
+  color: #ffffff;
+  border: 1px solid #444444;
+}
