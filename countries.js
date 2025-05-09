@@ -94,7 +94,7 @@ var countryIcons = {
   var detailedInfo = {
     ARG: `
       <h2>Argentine : Législation sur le vapotage (2025)</h2>
-      <img src="images-pays/arg.jpg" alt="Argentine">
+      <img src="images-pays/arg.jpg" loading="lazy" alt="Argentine">
       <p>En Argentine, la législation interdit :</p>
       <ul>
         <li>La fabrication, l'importation, la vente et la distribution de cigarettes électroniques et de dispositifs de vapotage, conformément à la disposition <strong>ANMAT n° 3226/2011</strong>.</li>
@@ -110,7 +110,7 @@ var countryIcons = {
     `,
     AUS: `
     <h2>Australie : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/aus.jpg" alt="Australie">
+    <img src="images-pays/aus.jpg" loading="lazy" alt="Australie">
     <p>Depuis le 1er juillet 2024, la vente de tous les produits de vapotage, y compris ceux sans nicotine, est restreinte aux pharmacies. Les produits doivent répondre à des normes strictes et ne sont disponibles que pour les adultes de 18 ans et plus, sous certaines conditions.</p>
     <ul>
       <li><strong>Importation :</strong> Depuis le 1er mars 2024, l'importation de dispositifs de vapotage, accessoires et substances nécessite une licence et un permis délivrés par l'Office of Drug Control. Les voyageurs peuvent apporter jusqu'à 2 dispositifs, 20 accessoires et 200 mL de liquide, uniquement pour usage personnel.</li>
@@ -128,7 +128,7 @@ var countryIcons = {
   
   BEL: `
     <h2>Belgique : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/bel.jpg" alt="Belgique">
+    <img src="images-pays/bel.jpg" loading="lazy" alt="Belgique">
     <p>La Belgique a renforcé sa réglementation sur les produits de vapotage afin de protéger la santé publique, notamment celle des jeunes, et de réduire l'impact environnemental des dispositifs jetables.</p>
     <ul>
       <li><strong>Interdiction des cigarettes électroniques jetables :</strong> Depuis le 1er janvier 2025, la vente de puffs est interdite sur l'ensemble du territoire belge, faisant de la Belgique le premier pays de l'UE à adopter une telle mesure. Cette décision vise à limiter l'accès des jeunes à ces produits attractifs et à réduire les déchets électroniques.</li>
@@ -147,7 +147,7 @@ var countryIcons = {
   
   BRA: `
     <h2>Brésil : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/bra.jpg" alt="Brésil">
+    <img src="images-pays/bra.jpg" loading="lazy" alt="Brésil">
     <p>Au Brésil, la législation interdit :</p>
     <ul>
       <li>La fabrication, l’importation, la vente et la distribution de cigarettes électroniques et de tous dispositifs de vapotage.</li>
@@ -168,7 +168,7 @@ var countryIcons = {
   
   CAN: `
     <h2>Canada : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/can.jpg" alt="Canada">
+    <img src="images-pays/can.jpg" loading="lazy" alt="Canada">
     <p>Au Canada, la réglementation sur le vapotage est encadrée par la <strong>Loi sur le tabac et les produits de vapotage (LTPV)</strong>, avec des mesures renforcées en 2024 et 2025 pour limiter l'accès des jeunes et encadrer la commercialisation.</p>
     <ul>
       <li><strong>Restrictions sur les arômes :</strong> Seules les saveurs de tabac, menthe ou menthol sont autorisées. Les sucres, édulcorants et la plupart des arômes sont interdits, sauf ceux spécifiquement prévus pour ces saveurs.</li>
@@ -187,7 +187,7 @@ var countryIcons = {
   
   CHL: `
     <h2>Chili : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/chl.jpg" alt="Chili">
+    <img src="images-pays/chl.jpg" loading="lazy" alt="Chili">
     <p>Depuis le 4 janvier 2024, le Chili a promulgué la <strong>Ley N° 21.642</strong>, qui établit un cadre réglementaire strict pour les dispositifs de vapotage, qu'ils contiennent ou non de la nicotine. Cette loi assimile les systèmes électroniques de distribution de nicotine (SEAN) et sans nicotine (SESN) aux produits du tabac, les soumettant ainsi à des restrictions similaires.</p>
     <ul>
       <li><strong>Interdiction de vente aux mineurs :</strong> La vente, la distribution et la promotion de ces produits sont interdites aux personnes de moins de 18 ans, y compris les accessoires et les liquides de recharge.</li>
@@ -207,7 +207,7 @@ var countryIcons = {
   
   CHN: `
     <h2>Chine : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/chn.jpg" alt="Chine">
+    <img src="images-pays/chn.jpg" loading="lazy" alt="Chine">
     <p>En Chine continentale, les cigarettes électroniques sont soumises à une réglementation stricte, alignée sur celle des produits du tabac traditionnels.</p>
     <ul>
       <li><strong>Interdiction des arômes :</strong> Depuis le 1er octobre 2022, seuls les e-liquides au goût de tabac sont autorisés. Les arômes fruités, mentholés ou autres sont interdits.</li>
@@ -225,7 +225,7 @@ var countryIcons = {
   
   COL: `
     <h2>Colombie : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/col.jpg" alt="Colombie">
+    <img src="images-pays/col.jpg" loading="lazy" alt="Colombie">
     <p>Depuis le 9 mai 2024, la <strong>Ley 2354</strong> est en vigueur en Colombie, établissant un cadre réglementaire strict pour les dispositifs de vapotage, qu'ils contiennent ou non de la nicotine. Cette loi étend les restrictions de la <strong>Ley Antitabaco (Ley 1335 de 2009)</strong> aux produits de vapotage, les assimilant aux produits du tabac traditionnels.</p>
     <ul>
       <li><strong>Interdiction de vente aux mineurs :</strong> La vente, la distribution et la promotion de ces produits sont interdites aux personnes de moins de 18 ans.</li>
@@ -245,7 +245,7 @@ var countryIcons = {
 
     DNK: `
     <h2>Danemark : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/dnk.jpg" alt="Danemark">
+    <img src="images-pays/dnk.jpg" loading="lazy" alt="Danemark">
     <p>Au Danemark, la vente et l'utilisation de cigarettes électroniques sont autorisées, mais strictement encadrées :</p>
     <ul>
       <li><strong>Âge minimum :</strong> La vente est réservée aux personnes de 18 ans et plus.</li>
@@ -273,7 +273,7 @@ var countryIcons = {
   
   FIN: `
     <h2>Finlande : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/fin.jpg" alt="Finlande">
+    <img src="images-pays/fin.jpg" loading="lazy" alt="Finlande">
     <p>La Finlande applique une réglementation stricte alignée sur la directive européenne (TPD), avec des restrictions nationales supplémentaires pour protéger la santé publique.</p>
     <ul>
       <li><strong>Âge minimum :</strong> Vente interdite aux moins de 18 ans.</li>
@@ -295,7 +295,7 @@ var countryIcons = {
   
   GRC: `
     <h2>Grèce : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/grc.jpg" alt="Grèce">
+    <img src="images-pays/grc.jpg" loading="lazy" alt="Grèce">
     <p>La Grèce applique une réglementation stricte sur les produits de vapotage, en conformité avec la directive européenne sur les produits du tabac (TPD), avec des mesures nationales supplémentaires :</p>
     <ul>
       <li><strong>Âge minimum :</strong> La vente de produits de vapotage est interdite aux personnes de moins de 18 ans.</li>
@@ -320,7 +320,7 @@ var countryIcons = {
   
   IND: `
     <h2>Inde : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/ind.jpg" alt="Inde">
+    <img src="images-pays/ind.jpg" loading="lazy" alt="Inde">
     <p>Depuis le 18 septembre 2019, l'Inde interdit strictement tous les produits de vapotage, conformément à la loi <strong>Prohibition of Electronic Cigarettes Act, 2019</strong>.</p>
     <ul>
       <li><strong>Interdictions totales :</strong> La production, la fabrication, l'importation, l'exportation, le transport, la vente, la distribution, le stockage et la publicité des cigarettes électroniques et de leurs composants sont prohibés.</li>
@@ -339,7 +339,7 @@ var countryIcons = {
   
   IDN: `
     <h2>Indonésie : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/idn.jpg" alt="Indonésie">
+    <img src="images-pays/idn.jpg" loading="lazy" alt="Indonésie">
     <p>Depuis la mise en œuvre du <strong>Règlement gouvernemental n° 28 de 2024</strong>, l'Indonésie a renforcé sa réglementation sur les produits de vapotage afin de protéger la santé publique, notamment celle des jeunes.</p>
     <ul>
       <li><strong>Âge minimum :</strong> La vente de produits de vapotage est interdite aux personnes de moins de 21 ans. Des contrôles d'identité stricts sont requis pour l'achat en ligne et en magasin.</li>
@@ -366,7 +366,7 @@ var countryIcons = {
   
   ITA: `
     <h2>Italie : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/ita.jpg" alt="Italie">
+    <img src="images-pays/ita.jpg" loading="lazy" alt="Italie">
     <p>En 2025, l'Italie a renforcé sa réglementation sur les produits de vapotage afin de mieux encadrer leur utilisation et de protéger la santé publique.</p>
     <ul>
       <li><strong>Âge minimum :</strong> La vente de produits de vapotage est interdite aux personnes de moins de 18 ans.</li>
@@ -394,7 +394,7 @@ var countryIcons = {
   
   JPN: `
     <h2>Japon : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/jpn.jpg" alt="Japon">
+    <img src="images-pays/jpn.jpg" loading="lazy" alt="Japon">
     <p>Au Japon, la réglementation sur les produits de vapotage distingue strictement les produits contenant de la nicotine de ceux qui en sont dépourvus.</p>
     <ul>
       <li><strong>Vente de produits nicotinés :</strong> La vente de e-liquides contenant de la nicotine est interdite sur le territoire japonais, car la nicotine est classée comme substance pharmaceutique. Aucun produit de vapotage nicotiné n'a été approuvé à la vente à ce jour.</li>
@@ -415,7 +415,7 @@ var countryIcons = {
 
   KHM: `
     <h2>Cambodge : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/khm.jpg" alt="Cambodge">
+    <img src="images-pays/khm.jpg" loading="lazy" alt="Cambodge">
     <p>Depuis 2014, le Cambodge interdit :</p>
     <ul>
       <li>La vente, l'importation et l'utilisation de cigarettes électroniques, de shishas et de produits de tabac chauffé.</li>
@@ -434,7 +434,7 @@ var countryIcons = {
   
   LAO: `
     <h2>Laos : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/lao.jpg" alt="Laos">
+    <img src="images-pays/lao.jpg" loading="lazy" alt="Laos">
     <p>Le Laos applique une interdiction stricte des produits de vapotage, dans le cadre d'une politique de santé publique visant à réduire la consommation de nicotine, en particulier chez les jeunes.</p>
     <ul>
       <li><strong>Interdiction de vente et d'utilisation :</strong> La vente, l'importation, la distribution et l'utilisation de cigarettes électroniques sont interdites sur l'ensemble du territoire, conformément à la Loi sur le contrôle du tabac et à ses décrets d'application.</li>
@@ -462,7 +462,7 @@ var countryIcons = {
 
 MYS: `
     <h2>Malaisie : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/mys.jpg" alt="Malaisie">
+    <img src="images-pays/mys.jpg" loading="lazy" alt="Malaisie">
     <p>La Malaisie a instauré une réglementation stricte sur les produits de vapotage à travers la <strong>Loi sur le contrôle des produits du tabac pour la santé publique (Acte 852)</strong>, entrée en vigueur le 1er octobre 2024. Cette loi vise à encadrer la vente, l'utilisation et la promotion des produits de vapotage pour protéger la santé publique, notamment celle des jeunes.</p>
     <ul>
       <li><strong>Enregistrement des produits :</strong> Tous les e-liquides, avec ou sans nicotine, doivent être enregistrés auprès du ministère de la Santé. Les fabricants doivent fournir des analyses de laboratoire et obtenir une certification de conformité aux normes locales.</li>
@@ -485,7 +485,7 @@ MYS: `
   
   MUS: `
     <h2>Île Maurice : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/mus.jpg" alt="Île Maurice">
+    <img src="images-pays/mus.jpg" loading="lazy" alt="Île Maurice">
     <p>Depuis l'entrée en vigueur des <strong>Public Health (Restrictions on Tobacco Products) Regulations 2022</strong>, l'Île Maurice applique une interdiction stricte des produits de vapotage :</p>
     <ul>
       <li><strong>Interdiction totale :</strong> La fabrication, l'importation, la distribution, la vente et la publicité des cigarettes électroniques, e-liquides (avec ou sans nicotine) et accessoires sont interdites. Cette mesure vise à protéger la santé publique, notamment celle des jeunes, en limitant l'accès à ces produits.</li>
@@ -503,7 +503,7 @@ MYS: `
   
   NLD: `
     <h2>Pays-Bas : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/nld.jpg" alt="Pays-Bas">
+    <img src="images-pays/nld.jpg" loading="lazy" alt="Pays-Bas">
     <p>Les Pays-Bas ont mis en place une réglementation stricte sur les produits de vapotage afin de protéger la santé publique, notamment celle des jeunes :</p>
     <ul>
       <li><strong>Interdiction des arômes :</strong> Depuis le 1er janvier 2023, seuls les e-liquides au goût de tabac sont autorisés. Les arômes sucrés, fruités ou mentholés sont interdits, même pour les produits sans nicotine. Les stocks existants pouvaient être écoulés jusqu'au 1er janvier 2024. Cette mesure a conduit à une réduction significative de l'usage du vapotage, avec environ 22 % des utilisateurs ayant cessé complètement et 40 % ayant réduit leur consommation.</li>
@@ -525,7 +525,7 @@ MYS: `
   
   PRT: `
     <h2>Portugal : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/prt.jpg" alt="Portugal">
+    <img src="images-pays/prt.jpg" loading="lazy" alt="Portugal">
     <p>Le Portugal applique une réglementation stricte sur les produits de vapotage, alignée sur la directive européenne sur les produits du tabac (TPD), avec des mesures supplémentaires spécifiques au pays :</p>
     <ul>
       <li><strong>Âge minimum :</strong> La vente de produits de vapotage est interdite aux personnes de moins de 18 ans.</li>
@@ -548,7 +548,7 @@ MYS: `
   
   QAT: `
     <h2>Qatar : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/qat.jpg" alt="Qatar">
+    <img src="images-pays/qat.jpg" loading="lazy" alt="Qatar">
     <p>Le Qatar applique une interdiction stricte et complète des produits de vapotage :</p>
     <ul>
       <li><strong>Interdiction totale :</strong> Depuis 2014, la fabrication, l'importation, la vente, la distribution, l'affichage, la publicité et l'utilisation des cigarettes électroniques et des e-liquides sont illégales. Cette interdiction a été renforcée par la <strong>Loi n° 10 de 2016 sur le contrôle du tabac</strong>.</li>
@@ -568,7 +568,7 @@ MYS: `
   
   SGP: `
     <h2>Singapour : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/sgp.jpg" alt="Singapour">
+    <img src="images-pays/sgp.jpg" loading="lazy" alt="Singapour">
     <p>Singapour applique une politique de tolérance zéro envers le vapotage, avec une interdiction totale couvrant tous les aspects liés aux cigarettes électroniques :</p>
     <ul>
       <li><strong>Interdiction complète :</strong> La <strong>Loi sur le contrôle de la publicité et de la vente du tabac (TCASA)</strong> interdit l'importation, la vente, la distribution, la possession, l'utilisation et l'achat de cigarettes électroniques, e-liquides (avec ou sans nicotine) et dispositifs de vapotage. Cette interdiction s'étend également aux produits de tabac chauffé et aux dispositifs similaires.</li>
@@ -594,7 +594,7 @@ MYS: `
   
   LKA: `
     <h2>Sri Lanka : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/lka.jpg" alt="Sri Lanka">
+    <img src="images-pays/lka.jpg" loading="lazy" alt="Sri Lanka">
     <p>Le Sri Lanka applique une interdiction stricte des produits de vapotage, couvrant tous les aspects liés aux cigarettes électroniques :</p>
     <ul>
       <li><strong>Interdiction complète :</strong> La <strong>Prohibited Tobacco Products Regulations n°1 de 2016</strong> interdit la fabrication, l'importation, la vente et la distribution de cigarettes électroniques, y compris celles contenant du tabac. Bien que la loi mentionne spécifiquement les e-cigarettes contenant du tabac, cette disposition est appliquée à toutes les e-cigarettes.</li>
@@ -614,7 +614,7 @@ MYS: `
   
   THA: `
     <h2>Thaïlande : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/tha.jpg" alt="Thaïlande">
+    <img src="images-pays/tha.jpg" loading="lazy" alt="Thaïlande">
     <p>La Thaïlande applique une interdiction stricte et complète des produits de vapotage :</p>
     <ul>
       <li><strong>Interdiction totale :</strong> Depuis 2014, la fabrication, l'importation, la vente, la distribution, la possession et l'utilisation de cigarettes électroniques, de e-liquides (avec ou sans nicotine) et de dispositifs de vapotage sont illégales. Cette interdiction a été renforcée par la <strong>Loi sur le contrôle du tabac de 2014</strong> et le <strong>Code des douanes</strong>.</li>
@@ -636,7 +636,7 @@ MYS: `
   
   TUN: `
     <h2>Tunisie : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/tun.jpg" alt="Tunisie">
+    <img src="images-pays/tun.jpg" loading="lazy" alt="Tunisie">
     <p>En Tunisie, le vapotage est autorisé mais encadré par une réglementation spécifique :</p>
     <ul>
       <li><strong>Statut légal :</strong> Les cigarettes électroniques et les e-liquides sont légaux, mais leur vente et distribution sont soumises à des restrictions. La Régie Nationale des Tabacs et des Allumettes (RNTA) supervise la commercialisation de ces produits. </li>
@@ -657,7 +657,7 @@ MYS: `
   
   USA: `
     <h2>États-Unis : Législation sur le vapotage (2025)</h2>
-    <img src="images-pays/usa.jpg" alt="USA">
+    <img src="images-pays/usa.jpg" loading="lazy" alt="USA">
     <p>La réglementation du vapotage aux États-Unis repose sur une combinaison de lois fédérales et de réglementations spécifiques à chaque État, visant à encadrer la vente, la distribution et l'utilisation des produits de vapotage.</p>
     <ul>
       <li><strong>Âge légal :</strong> La loi fédérale interdit la vente de produits du tabac, y compris les cigarettes électroniques, aux personnes de moins de 21 ans. Les détaillants doivent vérifier l'âge des acheteurs à l'aide d'une pièce d'identité avec photo pour toute personne de moins de 30 ans. </li>
