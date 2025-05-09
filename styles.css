@@ -27,6 +27,14 @@ body.is-mobile .leaflet-popup-content-wrapper {
   font-size: 1em;
 }
 
+/* Assurez-vous que les images dans le tooltip s'adaptent à la largeur du conteneur */
+#fullscreen-tooltip img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centrer l'image horizontalement */
+}
+
 /* === Légende === */
 .info.legend {
   background: white;
