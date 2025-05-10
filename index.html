@@ -6,11 +6,20 @@
   <meta name="description" content="Carte interactive pour voyager avec votre cigarette électronique.">
   <title>Voyagez avec votre cigarette électronique</title>
 
+  <!-- Préchargement des tuiles de la carte -->
+<link rel="preload" as="image" href="https://a.basemaps.cartocdn.com/light_all/4/8/4@2x.png" crossorigin="anonymous">
+
+
+<!-- Préchargement des fichiers CSS -->
+<link rel="preload" as="style" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+<link rel="preload" as="style" href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css">
+<link rel="preload" as="style" href="styles.css">
+
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
   <link rel="stylesheet" href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
 </head>
 
 <body>
@@ -29,9 +38,13 @@
 </div>
 
   <!-- Leaflet JS -->
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-  <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
-<script src="countries.js"></script>
-<script src="scripts.js"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" defer></script>
+  <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js" defer></script>
+
+
+<script src="countries.js" defer></script>
+<script src="scripts.js" defer></script>
+
+
 </body>
 </html>

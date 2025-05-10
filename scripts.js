@@ -25,6 +25,11 @@ window.addEventListener('resize', detectMobile);
 var mapCenter = isMobile ? [50, 10] : [20, 0];
 var mapZoom = isMobile ? 4 : 3;
 
+// Vérifiez si une carte existe déjà
+if (typeof map !== 'undefined' && map !== null) {
+  map.remove(); // Supprime l'instance existante de la carte
+}
+
 var map = L.map('map', {
   center: mapCenter,       // Coordonnées du centre de la carte
   zoom: mapZoom,           // Niveau de zoom
