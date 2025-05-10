@@ -1762,6 +1762,89 @@ var countryIcons = {
 
   `,
 
+  LKA: `
+    <head>
+  <style>
+    .list-none { list-style: none; padding-left: 0; }
+    .flex { display: flex; }
+    .gap-3 { gap: 0.75rem; }
+    .text-xl { font-size: 1.25rem; }
+    .rounded-2xl { border-radius: 1rem; }
+    .shadow-lg { box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -4px rgba(0,0,0,.1); }
+    .bg-white { background:#fff; }
+    .p-6 { padding: 1.5rem; }
+    .max-w-3xl { max-width: 48rem; margin-left:auto; margin-right:auto; }
+  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Législation sur le vapotage au Sri Lanka (2025)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: "Inter", sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+  <main class="max-w-3xl mx-auto p-6">
+    <section class="bg-white p-6 md:p-8 rounded-2xl shadow-lg">
+      <h1 class="text-3xl md:text-4xl font-bold text-blue-700 mb-4">
+        Législation sur le vapotage au Sri Lanka (2025)
+      </h1>
+      <img src="images-pays/lka.jpg" loading="lazy" alt="Sri Lanka" class="mb-4" />
+      <p class="mb-6 leading-relaxed">
+        Le Sri Lanka applique une interdiction stricte des produits de vapotage, couvrant tous les aspects liés aux cigarettes électroniques :
+      </p>
+
+      <ul class="space-y-4 list-none pl-0">
+        <li class="flex gap-3">
+          <span class="text-blue-600 text-xl">🚫</span>
+          <p>
+            <span class="font-semibold">Interdiction complète :</span> La <strong>Prohibited Tobacco Products Regulations n°1 de 2016</strong> interdit la fabrication, l'importation, la vente et la distribution de cigarettes électroniques, y compris celles contenant du tabac. Bien que la loi mentionne spécifiquement les e-cigarettes contenant du tabac, cette disposition est appliquée à toutes les e-cigarettes.
+          </p>
+        </li>
+        <li class="flex gap-3">
+          <span class="text-blue-600 text-xl">🚷</span>
+          <p>
+            <span class="font-semibold">Usage personnel :</span> L'utilisation des dispositifs de vapotage est également interdite. Les voyageurs ne doivent pas apporter de matériel de vape, même pour un usage personnel, sous peine de confiscation, d'amendes ou d'emprisonnement.
+          </p>
+        </li>
+        <li class="flex gap-3">
+          <span class="text-blue-600 text-xl">📢</span>
+          <p>
+            <span class="font-semibold">Publicité et promotion :</span> Toute forme de publicité, de promotion ou de parrainage des produits de vapotage est interdite.
+          </p>
+        </li>
+        <li class="flex gap-3">
+          <span class="text-blue-600 text-xl">⚖️</span>
+          <p>
+            <span class="font-semibold">Sanctions :</span> Les contrevenants s'exposent à des sanctions sévères, incluant des amendes et des peines d'emprisonnement.
+          </p>
+        </li>
+        <li class="flex gap-3">
+          <span class="text-blue-600 text-xl">🔍</span>
+          <p>
+            <span class="font-semibold">Application stricte :</span> Les autorités sri-lankaises mènent des contrôles réguliers pour détecter et confisquer les produits interdits. Les voyageurs sont tenus de respecter ces réglementations pour éviter des sanctions.
+          </p>
+        </li>
+      </ul>
+
+      <p class="mt-6">
+        Il est fortement déconseillé d'apporter ou d'utiliser des dispositifs de vapotage au Sri Lanka. Les autorités appliquent une politique de tolérance zéro à l'égard du vapotage.
+      </p>
+
+      <p class="mt-6 text-sm">
+        <span class="font-semibold">Sources :</span>
+        <a href="https://www.tobaccocontrollaws.org/legislation/sri-lanka/e-cigarettes/main-policies" class="text-blue-600 underline hover:text-blue-800" target="_blank">Tobacco Control Laws</a>,
+        <a href="https://ecigator.com/guide/can-you-vape-in-sri-lanka/" class="text-blue-600 underline hover:text-blue-800" target="_blank">Ecigator</a>,
+        <a href="https://travel-eat-love.de/en/sri-lanka/smoking-in-sri-lanka-what-is-allowed/" class="text-blue-600 underline hover:text-blue-800" target="_blank">Travel Eat Love</a>,
+        <a href="#sri-lanka" class="text-blue-600 underline hover:text-blue-800">Source</a>
+      </p>
+    </section>
+  </main>
+</body>
+
+  `,
+
   LVA: `
 
 <head>
@@ -1962,7 +2045,84 @@ var countryIcons = {
 </body>
 `,
 
-MYS: `
+
+  MUS: `
+    <head>
+  <style>
+    .list-none { list-style: none; padding-left: 0; }
+    .flex { display: flex; }
+    .gap-3 { gap: 0.75rem; }
+    .text-xl { font-size: 1.25rem; }
+    .rounded-2xl { border-radius: 1rem; }
+    .shadow-lg { box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -4px rgba(0,0,0,.1); }
+    .bg-white { background:#fff; }
+    .p-6 { padding: 1.5rem; }
+    .max-w-3xl { max-width: 48rem; margin-left:auto; margin-right:auto; }
+  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Législation sur le vapotage à l'Île Maurice (2025)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: "Inter", sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+  <main class="max-w-3xl mx-auto p-6">
+    <section class="bg-white p-6 md:p-8 rounded-2xl shadow-lg">
+      <h1 class="text-3xl md:text-4xl font-bold text-blue-700 mb-4">
+        Législation sur le vapotage à l'Île Maurice (2025)
+      </h1>
+      <img src="images-pays/mus.jpg" loading="lazy" alt="Île Maurice" class="mb-4" />
+      <p class="mb-6 leading-relaxed">
+        Depuis l'entrée en vigueur des <strong>Public Health (Restrictions on Tobacco Products) Regulations 2022</strong>, l'Île Maurice applique une interdiction stricte des produits de vapotage :
+      </p>
+
+      <ul class="space-y-4 list-none pl-0">
+        <li class="flex gap-3">
+          <span class="text-blue-600 text-xl">🚫</span>
+          <p>
+            <span class="font-semibold">Interdiction totale :</span> La fabrication, l'importation, la distribution, la vente et la publicité des cigarettes électroniques, e-liquides (avec ou sans nicotine) et accessoires sont interdites. Cette mesure vise à protéger la santé publique, notamment celle des jeunes, en limitant l'accès à ces produits.
+          </p>
+        </li>
+        <li class="flex gap-3">
+          <span class="text-blue-600 text-xl">🙅‍♂️</span>
+          <p>
+            <span class="font-semibold">Usage personnel :</span> Bien que la loi ne précise pas explicitement l'interdiction de l'usage personnel, les autorités appliquent une tolérance zéro. Les voyageurs sont fortement déconseillés d'apporter des dispositifs de vapotage, même pour usage personnel, sous peine de confiscation ou d'amende.
+          </p>
+        </li>
+        <li class="flex gap-3">
+          <span class="text-blue-600 text-xl">⚖️</span>
+          <p>
+            <span class="font-semibold">Sanctions :</span> Les contrevenants s'exposent à des sanctions administratives, telles que des amendes, la confiscation des produits et, dans certains cas, des poursuites judiciaires. Les autorités douanières et policières appliquent strictement ces mesures.
+          </p>
+        </li>
+        <li class="flex gap-3">
+          <span class="text-blue-600 text-xl">🔄</span>
+          <p>
+            <span class="font-semibold">Alternatives :</span> Pour les personnes souhaitant arrêter de fumer, des thérapies de remplacement de la nicotine, telles que les gommes ou les patchs, sont disponibles légalement à Maurice. Il est recommandé de se renseigner auprès des pharmacies locales pour plus d'informations.
+          </p>
+        </li>
+      </ul>
+
+      <p class="mt-6 text-sm leading-relaxed italic">
+        Ces mesures s'inscrivent dans le cadre du <strong>Plan national de lutte antitabac 2022-2026</strong>, qui vise à réduire la consommation de tabac et de produits associés dans le pays.
+      </p>
+
+      <p class="mt-4 text-sm">
+        <span class="font-semibold">Sources :</span>
+        <a href="https://www.tobaccocontrollaws.org/legislation/mauritius/e-cigarettes/main-policies" class="text-blue-600 underline hover:text-blue-800" target="_blank">Tobacco Control Laws</a>,
+        <a href="https://ecigator.com/guide/mauritius-vaping-laws-travelers/" class="text-blue-600 underline hover:text-blue-800" target="_blank">Ecigator</a>,
+        <a href="https://health.govmu.org/health/wp-content/uploads/2023/03/National-Action-Plan-for-Tobacco-Control-2022-2026.pdf" class="text-blue-600 underline hover:text-blue-800" target="_blank">Ministère de la Santé de Maurice</a>
+      </p>
+    </section>
+  </main>
+</body>
+
+  `,
+
+  MYS: `
     <head>
   <style>
     .list-none { list-style: none; padding-left: 0; }
@@ -2063,81 +2223,6 @@ MYS: `
 
   `,
   
-  MUS: `
-    <head>
-  <style>
-    .list-none { list-style: none; padding-left: 0; }
-    .flex { display: flex; }
-    .gap-3 { gap: 0.75rem; }
-    .text-xl { font-size: 1.25rem; }
-    .rounded-2xl { border-radius: 1rem; }
-    .shadow-lg { box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -4px rgba(0,0,0,.1); }
-    .bg-white { background:#fff; }
-    .p-6 { padding: 1.5rem; }
-    .max-w-3xl { max-width: 48rem; margin-left:auto; margin-right:auto; }
-  </style>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Législation sur le vapotage à l'Île Maurice (2025)</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-  <style>
-    body { font-family: "Inter", sans-serif; }
-  </style>
-</head>
-<body class="bg-gray-50 text-gray-800 antialiased">
-  <main class="max-w-3xl mx-auto p-6">
-    <section class="bg-white p-6 md:p-8 rounded-2xl shadow-lg">
-      <h1 class="text-3xl md:text-4xl font-bold text-blue-700 mb-4">
-        Législation sur le vapotage à l'Île Maurice (2025)
-      </h1>
-      <img src="images-pays/mus.jpg" loading="lazy" alt="Île Maurice" class="mb-4" />
-      <p class="mb-6 leading-relaxed">
-        Depuis l'entrée en vigueur des <strong>Public Health (Restrictions on Tobacco Products) Regulations 2022</strong>, l'Île Maurice applique une interdiction stricte des produits de vapotage :
-      </p>
-
-      <ul class="space-y-4 list-none pl-0">
-        <li class="flex gap-3">
-          <span class="text-blue-600 text-xl">🚫</span>
-          <p>
-            <span class="font-semibold">Interdiction totale :</span> La fabrication, l'importation, la distribution, la vente et la publicité des cigarettes électroniques, e-liquides (avec ou sans nicotine) et accessoires sont interdites. Cette mesure vise à protéger la santé publique, notamment celle des jeunes, en limitant l'accès à ces produits.
-          </p>
-        </li>
-        <li class="flex gap-3">
-          <span class="text-blue-600 text-xl">🙅‍♂️</span>
-          <p>
-            <span class="font-semibold">Usage personnel :</span> Bien que la loi ne précise pas explicitement l'interdiction de l'usage personnel, les autorités appliquent une tolérance zéro. Les voyageurs sont fortement déconseillés d'apporter des dispositifs de vapotage, même pour usage personnel, sous peine de confiscation ou d'amende.
-          </p>
-        </li>
-        <li class="flex gap-3">
-          <span class="text-blue-600 text-xl">⚖️</span>
-          <p>
-            <span class="font-semibold">Sanctions :</span> Les contrevenants s'exposent à des sanctions administratives, telles que des amendes, la confiscation des produits et, dans certains cas, des poursuites judiciaires. Les autorités douanières et policières appliquent strictement ces mesures.
-          </p>
-        </li>
-        <li class="flex gap-3">
-          <span class="text-blue-600 text-xl">🔄</span>
-          <p>
-            <span class="font-semibold">Alternatives :</span> Pour les personnes souhaitant arrêter de fumer, des thérapies de remplacement de la nicotine, telles que les gommes ou les patchs, sont disponibles légalement à Maurice. Il est recommandé de se renseigner auprès des pharmacies locales pour plus d'informations.
-          </p>
-        </li>
-      </ul>
-
-      <p class="mt-6 text-sm leading-relaxed italic">
-        Ces mesures s'inscrivent dans le cadre du <strong>Plan national de lutte antitabac 2022-2026</strong>, qui vise à réduire la consommation de tabac et de produits associés dans le pays.
-      </p>
-
-      <p class="mt-4 text-sm">
-        <span class="font-semibold">Sources :</span>
-        <a href="https://www.tobaccocontrollaws.org/legislation/mauritius/e-cigarettes/main-policies" class="text-blue-600 underline hover:text-blue-800" target="_blank">Tobacco Control Laws</a>,
-        <a href="https://ecigator.com/guide/mauritius-vaping-laws-travelers/" class="text-blue-600 underline hover:text-blue-800" target="_blank">Ecigator</a>,
-        <a href="https://health.govmu.org/health/wp-content/uploads/2023/03/National-Action-Plan-for-Tobacco-Control-2022-2026.pdf" class="text-blue-600 underline hover:text-blue-800" target="_blank">Ministère de la Santé de Maurice</a>
-      </p>
-    </section>
-  </main>
-</body>
-
-  `,
   
   NLD: `
     <head>
@@ -2274,6 +2359,7 @@ MYS: `
         <h1 class="text-3xl md:text-4xl font-bold text-blue-700 mb-4">
           Réglementation sur le vapotage au Portugal
         </h1>
+        <img src="images-pays/prt.jpg" loading="lazy" alt="Tunisie" class="mb-4" />
         <p class="mb-6 leading-relaxed">
           Le Portugal applique une réglementation stricte sur les produits de
           vapotage, alignée sur la directive européenne sur les produits du
@@ -2656,89 +2742,6 @@ MYS: `
     </section>
   </main>
 </body>
-  `,
-
-  LKA: `
-    <head>
-  <style>
-    .list-none { list-style: none; padding-left: 0; }
-    .flex { display: flex; }
-    .gap-3 { gap: 0.75rem; }
-    .text-xl { font-size: 1.25rem; }
-    .rounded-2xl { border-radius: 1rem; }
-    .shadow-lg { box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -4px rgba(0,0,0,.1); }
-    .bg-white { background:#fff; }
-    .p-6 { padding: 1.5rem; }
-    .max-w-3xl { max-width: 48rem; margin-left:auto; margin-right:auto; }
-  </style>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Législation sur le vapotage au Sri Lanka (2025)</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-  <style>
-    body { font-family: "Inter", sans-serif; }
-  </style>
-</head>
-<body class="bg-gray-50 text-gray-800 antialiased">
-  <main class="max-w-3xl mx-auto p-6">
-    <section class="bg-white p-6 md:p-8 rounded-2xl shadow-lg">
-      <h1 class="text-3xl md:text-4xl font-bold text-blue-700 mb-4">
-        Législation sur le vapotage au Sri Lanka (2025)
-      </h1>
-      <img src="images-pays/lka.jpg" loading="lazy" alt="Sri Lanka" class="mb-4" />
-      <p class="mb-6 leading-relaxed">
-        Le Sri Lanka applique une interdiction stricte des produits de vapotage, couvrant tous les aspects liés aux cigarettes électroniques :
-      </p>
-
-      <ul class="space-y-4 list-none pl-0">
-        <li class="flex gap-3">
-          <span class="text-blue-600 text-xl">🚫</span>
-          <p>
-            <span class="font-semibold">Interdiction complète :</span> La <strong>Prohibited Tobacco Products Regulations n°1 de 2016</strong> interdit la fabrication, l'importation, la vente et la distribution de cigarettes électroniques, y compris celles contenant du tabac. Bien que la loi mentionne spécifiquement les e-cigarettes contenant du tabac, cette disposition est appliquée à toutes les e-cigarettes.
-          </p>
-        </li>
-        <li class="flex gap-3">
-          <span class="text-blue-600 text-xl">🚷</span>
-          <p>
-            <span class="font-semibold">Usage personnel :</span> L'utilisation des dispositifs de vapotage est également interdite. Les voyageurs ne doivent pas apporter de matériel de vape, même pour un usage personnel, sous peine de confiscation, d'amendes ou d'emprisonnement.
-          </p>
-        </li>
-        <li class="flex gap-3">
-          <span class="text-blue-600 text-xl">📢</span>
-          <p>
-            <span class="font-semibold">Publicité et promotion :</span> Toute forme de publicité, de promotion ou de parrainage des produits de vapotage est interdite.
-          </p>
-        </li>
-        <li class="flex gap-3">
-          <span class="text-blue-600 text-xl">⚖️</span>
-          <p>
-            <span class="font-semibold">Sanctions :</span> Les contrevenants s'exposent à des sanctions sévères, incluant des amendes et des peines d'emprisonnement.
-          </p>
-        </li>
-        <li class="flex gap-3">
-          <span class="text-blue-600 text-xl">🔍</span>
-          <p>
-            <span class="font-semibold">Application stricte :</span> Les autorités sri-lankaises mènent des contrôles réguliers pour détecter et confisquer les produits interdits. Les voyageurs sont tenus de respecter ces réglementations pour éviter des sanctions.
-          </p>
-        </li>
-      </ul>
-
-      <p class="mt-6">
-        Il est fortement déconseillé d'apporter ou d'utiliser des dispositifs de vapotage au Sri Lanka. Les autorités appliquent une politique de tolérance zéro à l'égard du vapotage.
-      </p>
-
-      <p class="mt-6 text-sm">
-        <span class="font-semibold">Sources :</span>
-        <a href="https://www.tobaccocontrollaws.org/legislation/sri-lanka/e-cigarettes/main-policies" class="text-blue-600 underline hover:text-blue-800" target="_blank">Tobacco Control Laws</a>,
-        <a href="https://ecigator.com/guide/can-you-vape-in-sri-lanka/" class="text-blue-600 underline hover:text-blue-800" target="_blank">Ecigator</a>,
-        <a href="https://travel-eat-love.de/en/sri-lanka/smoking-in-sri-lanka-what-is-allowed/" class="text-blue-600 underline hover:text-blue-800" target="_blank">Travel Eat Love</a>,
-        <a href="#sri-lanka" class="text-blue-600 underline hover:text-blue-800">Source</a>
-      </p>
-    </section>
-  </main>
-</body>
-
   `,
   
   THA: `
