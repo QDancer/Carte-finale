@@ -25,48 +25,25 @@ window.addEventListener('resize', detectMobile);
 var mapCenter = isMobile ? [50, 10] : [20, 0];
 var mapZoom = isMobile ? 4 : 3;
 
-// ─── PRÉCHARGEMENT DE LA TUILE LCP ─────────────────────────────
-;(function preloadLcpTile() {
-  var lat = mapCenter[0], lon = mapCenter[1], z = mapZoom;
-  var n = Math.pow(2, z);
-  var tileX = Math.floor((lon + 180) / 360 * n);
-  var tileY = Math.floor(
-    (1 - Math.log(
-        Math.tan(lat * Math.PI/180) +
-        1/Math.cos(lat * Math.PI/180)
-      ) / Math.PI
-    ) / 2 * n
-  );
-  var lcpUrl =
-    'https://a.basemaps.cartocdn.com/light_all/' +
-    z + '/' + tileX + '/' + tileY + '@2x.png';
-
-  var link = document.createElement('link');
-  link.rel         = 'preload';
-  link.as          = 'image';
-  link.href        = lcpUrl;
-  link.crossOrigin = 'anonymous';
-  document.head.appendChild(link);
-})(); 
-
 // Vérifiez si une carte existe déjà
 if (typeof map !== 'undefined' && map !== null) {
   map.remove(); // Supprime l'instance existante de la carte
 }
 
 var map = L.map('map', {
-  center: mapCenter,       // Coordonnées du centre de la carte
-  zoom: mapZoom,           // Niveau de zoom
-  maxZoom: 19,             // Limite du zoom maximum
-  minZoom: 2,              // Limite du zoom minimum
-  crs: L.CRS.EPSG3857,     // Système de coordonnées par défaut (si nécessaire)
+  center: mapCenter,
+  zoom: mapZoom,
+  maxZoom: 19,
+  minZoom: 2,
+  crs: L.CRS.EPSG3857,
+  preferCanvas: true // Utilisation du canvas pour améliorer les performances
 });
 
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-  maxZoom: 19,            // Maximum zoom pour cette couche de tuiles
-  noWrap: true,            // Empêche la répétition horizontale des tuiles
-  crossOrigin: true    // ← active CORS pour réemployer la tuile préchargée
+  maxZoom: 19,
+  noWrap: true,
+  updateWhenIdle: true // Chargement différé des tuiles
 }).addTo(map);
 
 
