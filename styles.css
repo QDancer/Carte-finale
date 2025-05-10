@@ -17,7 +17,8 @@ h3, h2 {
   text-align: center;
 }
 
-body.is-mobile .leaflet-popup-content h3 {
+
+.leaflet-popup-content h3 {
   text-align: left;
 }
 
@@ -223,6 +224,10 @@ body.is-mobile .leaflet-popup-content-wrapper {
   color: rgb(0, 0, 0);
   border-radius: 4px;
   font-size: 1em;
+}
+
+body.is-mobile .leaflet-popup-content h3 {
+  text-align: left;
 }
 
 
