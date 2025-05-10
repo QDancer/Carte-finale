@@ -25,7 +25,20 @@ window.addEventListener('resize', detectMobile);
 var mapCenter = isMobile ? [50, 10] : [20, 0];
 var mapZoom = isMobile ? 4 : 3;
 
-var map = L.map('map').setView(mapCenter, mapZoom);
+var map = L.map('map', {
+  center: mapCenter,       // Coordonnées du centre de la carte
+  zoom: mapZoom,           // Niveau de zoom
+  maxZoom: 19,             // Limite du zoom maximum
+  minZoom: 2,              // Limite du zoom minimum
+  crs: L.CRS.EPSG3857,     // Système de coordonnées par défaut (si nécessaire)
+});
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  maxZoom: 19,            // Maximum zoom pour cette couche de tuiles
+  noWrap: true            // Empêche la répétition horizontale des tuiles
+}).addTo(map);
+
 
 // Couches de base
 var baseMaps = {
