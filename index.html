@@ -13,6 +13,18 @@
 <link rel="preload" as="style" href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css">
 <link rel="preload" as="style" href="styles.css">
 
+<!-- Préchargement du CSS (existant) -->
+  <link rel="preload" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" as="style">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+
+  <!-- PRÉCHARGEMENT de la tuile qui sert de LCP -->
+  <link
+    rel="preload"
+    href="https://a.basemaps.cartocdn.com/light_all/4/8/4@2x.png"
+    as="image"
+    crossorigin="anonymous"
+  />
+
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
