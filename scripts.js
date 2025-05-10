@@ -31,19 +31,19 @@ if (typeof map !== 'undefined' && map !== null) {
 }
 
 var map = L.map('map', {
-  center: mapCenter,
-  zoom: mapZoom,
-  maxZoom: 19,
-  minZoom: 2,
-  crs: L.CRS.EPSG3857,
-  preferCanvas: true // Utilisation du canvas pour améliorer les performances
+  center: mapCenter,       // Coordonnées du centre de la carte
+  zoom: mapZoom,           // Niveau de zoom
+  maxZoom: 19,             // Limite du zoom maximum
+  minZoom: 2,              // Limite du zoom minimum
+  crs: L.CRS.EPSG3857,     // Système de coordonnées par défaut (si nécessaire)
+  
+  
 });
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-  maxZoom: 19,
-  noWrap: true,
-  updateWhenIdle: true // Chargement différé des tuiles
+  maxZoom: 19,            // Maximum zoom pour cette couche de tuiles
+  noWrap: true            // Empêche la répétition horizontale des tuiles
 }).addTo(map);
 
 
@@ -52,7 +52,8 @@ var baseMaps = {
   "Light": L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png'),
   "Dark": L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png')
 };
-baseMaps.Light.addTo(map);
+
+L.control.layers(baseMaps).addTo(map);
 
 // Détecter le changement de couche pour activer/désactiver le mode sombre
 map.on('baselayerchange', function(event) {
